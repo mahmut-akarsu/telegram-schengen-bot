@@ -10,6 +10,7 @@ BOT_TOKEN = os.getenv("BOT_TOKEN")
 CHANNELS = {
     "italya": int(os.getenv("ITALYA_CHAT_ID")),
     "fransa": int(os.getenv("FRANSA_CHAT_ID")),
+    "bulgaristan": int(os.getenv("BULGARISTAN_CHAT_ID")),
 }
 
 bot = Bot(BOT_TOKEN)
