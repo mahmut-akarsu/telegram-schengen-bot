@@ -11,6 +11,9 @@ CHANNELS = {
     "italya": int(os.getenv("ITALYA_CHAT_ID")),
     "fransa": int(os.getenv("FRANSA_CHAT_ID")),
     "bulgaristan": int(os.getenv("BULGARISTAN_CHAT_ID")),
+    "hollanda":int(os.getenv("HOLLANDA_CHAT_ID")),
+    "romanya":int(os.getenv("ROMANYA_CHAT_ID")),
+    "yunanistan":int(os.getenv("YUNANISTAN_CHAT_ID"))
 }
 
 bot = Bot(BOT_TOKEN)
